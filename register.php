@@ -35,7 +35,7 @@
             $email_err = 'Email is already taken';
           }
         } else {
-          die('Something went wrong1');
+          die('Something went wrong');
         }
       }
 
@@ -82,7 +82,7 @@
           // Redirect to login
           header('location: login.php');
         } else {
-          die('Something went wrong2');
+          die('Something went wrong');
         }
       }
       unset($stmt);
